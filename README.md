@@ -66,7 +66,7 @@ $$\frac{\partial H}{\partial p} - \frac{p}{m} = 0$$ $$ \frac{\partial H}{\partia
 The Hamiltonian of this system is written as
 
 $$
-H(q, p) \;=\; \frac{p^2}{2\,m\,l^2} \;+\; m\,g\,l\,(1 - \cos q)
+H(q, p) = \frac{p^2}{2ml^2} + mgl(1 - \cos q)
 $$
 
 where
@@ -80,28 +80,30 @@ where
 From Hamilton’s equations we obtain
 
 $$
-\frac{\mathrm{d}q}{\mathrm{d}t} \;=\;\frac{\partial H}{\partial p}
-\;=\;\frac{p}{m\,l^2}, 
+\frac{\mathrm{d}q}{\mathrm{d}t} = \frac{\partial H}{\partial p}
+=\frac{p}{ml^2} 
 \quad
-\frac{\mathrm{d}p}{\mathrm{d}t} \;=\;-\,\frac{\partial H}{\partial q}
-\;=\;-\,m\,g\,l\,\sin q.
+\frac{\mathrm{d}p}{\mathrm{d}t} =\frac{\partial H}{\partial q}
+=-mgl\sin q.
 $$
 
 We enforce these conditions in the loss function, together with conservation of energy:
 
-   $$
-   \frac{\partial H}{\partial p} \;-\;\frac{p}{m\,l^2}
-   \;=\;0
-   $$
+$$
+\frac{\partial H}{\partial p} -\frac{p}{ml^2}
+=0
+$$
 
-   $$
-   \frac{\partial H}{\partial q} \;-\;m\,g\,l\,\sin q
-   \;=\;0
-   $$
+$$
+\frac{\partial H}{\partial q} -mgl\sin q
+=0
+$$
 
-   $$
-   \frac{\mathrm{d}H}{\mathrm{d}t} = 0
-   $$
+$$
+\frac{\mathrm{d}H}{\mathrm{d}t} = 0
+$$
+
+
 
 
 
